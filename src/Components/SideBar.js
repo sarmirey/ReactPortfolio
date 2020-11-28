@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import ProfilePic from "../Images/profile.jpg";
 import React from "react";
 import ReactLink from "@material-ui/core/Link";
-import Resume from "../Files/Reynerio_Sarmiento_Resume.pdf";
+import Resume from "../Files/Resume.pdf";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({

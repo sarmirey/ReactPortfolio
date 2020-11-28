@@ -10,7 +10,7 @@ import {
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import React from "react";
-import Resume from '../../Files/Reynerio_Sarmiento_Resume.pdf';
+import Resume from '../../Files/Resume.pdf';
 import WebIcon from "@material-ui/icons/Web";
 import { makeStyles } from "@material-ui/core/styles";
 
