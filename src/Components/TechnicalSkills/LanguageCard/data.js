@@ -11,7 +11,7 @@ import {
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default [
+const icons = [
   {
     id: 1,
     icon: <FontAwesomeIcon size="5x" icon={faJava} />,
@@ -53,3 +53,5 @@ export default [
     text: 'PHP',
   },
 ];
+
+export default icons;

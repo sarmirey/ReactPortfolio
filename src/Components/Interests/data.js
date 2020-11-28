@@ -2,7 +2,7 @@ import CodeIcon from '@material-ui/icons/Code';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import LanguageIcon from '@material-ui/icons/Language';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
-export default [
+const icons = [
     {
         id: 1,
         title: <LanguageIcon fontSize = 'large' />,
@@ -25,3 +25,5 @@ export default [
 
     },
 ];
+
+export default icons;

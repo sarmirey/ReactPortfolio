@@ -67,10 +67,10 @@ export default function ProjectLayout() {
   const [currentID, setCurrentID] = useState(1);
 
   const setState = (id) => {
-    if (id == "1") {
+    if (id === 1) {
       setCurrentID(id);
       setTypeOfProject(udemyprojectsdata);
-    } else if (id == "2") {
+    } else if (id === 2) {
       setCurrentID(id);
       setTypeOfProject(personalprojdata);
     } else {

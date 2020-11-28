@@ -1,4 +1,4 @@
-export default [
+const headers = [
     {
       id: 1,
       header: "Udemy Projects",
@@ -12,3 +12,5 @@ export default [
       header: "Work Projects",
     },
 ]
+
+export default headers;

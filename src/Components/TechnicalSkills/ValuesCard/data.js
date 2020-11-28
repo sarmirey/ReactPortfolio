@@ -4,7 +4,7 @@ import fastLearner from '../../../Images/fastlearner.svg';
 import image from '../../../Images/teamwork.svg';
 import problemsolver from '../../../Images/problemsolver.svg';
 import responsible from '../../../Images/responsible.svg';
-export default [
+const values = [
     {
       id: 1,
       icon: <img style = {{width: 200, height: 200}} src = {image} alt = " " />,
@@ -37,3 +37,4 @@ export default [
         },
   ];
   
+  export default values;

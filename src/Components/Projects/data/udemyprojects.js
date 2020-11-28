@@ -1,6 +1,6 @@
 import GroceryBud from '../../../Images/grocerybud.png';
 import Menu from '../../../Images/Menu.png';
-export default [
+const udemyProjects = [
     {
       id: 1,
       image: <img style = {{marginTop: '0.5rem',marginLeft: '0.5rem', width: 300, height: 165, justifyItems: 'center'}} src = {GroceryBud} alt = " " />,
@@ -20,3 +20,5 @@ export default [
       description: 'Menu App where you can filter different items on the menu: breakfast, lunch, or dinner. Each card is presented with their respective name, description, and price',
     },
 ]
+
+export default udemyProjects;

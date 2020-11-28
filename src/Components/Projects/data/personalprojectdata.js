@@ -1,9 +1,8 @@
 import ATM from '../../../Images/ATM.png'
 import currentPortfolio from '../../../Images/currentPortfolio.png'
-import petimage from '../../../Images/PetClinic.png';
 import pizzaproject from '../../../Images/pizza_project.png'
 import portfolioimage from '../../../Images/oldportfolio.png';
-export default [
+const personalProjects = [
     {
       id: 1,
       image: <img style = {{marginTop: '0.5rem',marginLeft: '0.5rem', width: 300, height: 165, justifyItems: 'center'}} src = {portfolioimage} alt = " " />,
@@ -41,3 +40,5 @@ export default [
       description: 'A Java program that simulates an ATM with user authentication. An ATM where you can check your balance, saved histoy, withdrawal transfers, and deposit transfers',
     }
 ]
+
+export default personalProjects;

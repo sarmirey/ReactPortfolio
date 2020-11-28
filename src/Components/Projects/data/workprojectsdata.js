@@ -1,6 +1,6 @@
 import hackalumni from '../../../Images/hackalumni.png';
 import policydoc from '../../../Images/policydoc.png';
-export default [
+const workProjects = [
     {
       id: 1,
       image: <img style = {{marginTop: '0.5rem',marginLeft: '0.5rem', width: 300, height: 165, justifyItems: 'center'}} src = {policydoc} alt = " " />,
@@ -20,3 +20,4 @@ export default [
       description: 'Working with a team a of 9 to develop a static web application where Hack Alumni can find events, jobs, and opportunities in Boston',
     },
 ]
+export default workProjects;
