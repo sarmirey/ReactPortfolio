@@ -16,7 +16,7 @@ const personalProjects = [
       id: 2,
       image: <img style = {{marginTop: '0.5rem',marginLeft: '0.5rem', width: 300, height: 165, justifyItems: 'center'}} src = {currentPortfolio} alt = " " />,
       header: "Current Portfolio Project",
-      visit: "https://reynerio-sarmiento.com/",
+      visit: "http://www.reynerio-sarmiento.com/",
       git: "https://github.com/sarmirey/ReactPortfolio",
       languages: ["React.js", "Material-UI", 'JavaScript'],
       description: 'React based web application that uses dynamic programming, prop drilling, conditional rendering, component based organization, and React Hooks',
